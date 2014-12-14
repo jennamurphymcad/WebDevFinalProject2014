@@ -43,6 +43,7 @@ canvas,
 img,
 video {
     vertical-align: middle;
+
 }
 
 fieldset {
@@ -261,14 +262,18 @@ nav a:hover {
     WIDE: Main
    ============ */
 
-    .main article {
-        float: right;
-        width: 57%;
+    .main section {
+        float: left;
+        width: 60%;
     }
 
     .main aside {
-        float: left;
-        width: 28%;
+        float: right;
+        width: 30%;
+    }
+    
+    .main aside iframe {
+    	max-width: 100%;
     }
 }
 
@@ -411,4 +416,8 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+section img {
+	float: left;
 }
