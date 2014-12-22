@@ -65,22 +65,20 @@ nav {
   nav li a:hover {
     background-color: #e1eaef;
     text-decoration: underline; }
-  nav li ul {
-    display: none;
-    position: absolute;
-    padding: 0; }
-  nav li:hover ul {
-    display: block;
-    z-index: 99;
-    width: 130px; }
-  nav li li {
-    float: none;
-    border-bottom: 1px solid #ccc;
-    font-size: 80%; }
-  nav li li a {
-    border: 0;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc; }
+
+aside ul li a {
+  color: #1f1f1f;
+  text-decoration: none;
+  display: block;
+  padding: .7em; }
+aside ul li a:hover {
+  background-color: #e1eaef;
+  text-decoration: underline; }
+
+article a {
+  color: #1f1f1f; }
+article a:hover {
+  color: #e1eaef; }
 
 section article, .blog, .submain {
   max-width: 960px;
@@ -100,7 +98,7 @@ section article {
   max-width: 70%; }
 
 .submain aside {
-  max-width: 20%;
+  max-width: 25%;
   float: right;
   padding-top: 55px;
   border-bottom: 1px solid #cfcfcf; }
